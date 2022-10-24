@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="css/myframework.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,700;1,800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="page d-flex">
+        <div class="sidebar bg-white p-20 position-relative">
+            <h3 class="mt-0 position-relative text-center">Elzero</h3>
+            <ul>
+                <li>
+                    <a class=" d-flex align-items-center fs-14 text-black rad-6 p-10" href="index.html">
+                        <i class="fa-solid fa-chart-bar fa-fw"></i>
+                        <span>Dashboard</span>
+
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-items-center fs-14 text-black rad-6 p-10" href="setting.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Setting</span>
+
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-items-center fs-14 text-black rad-6 p-10" href="profile.html">
+                        <i class="fa-solid fa-user fa-fw"></i>
+                        <span>Profile</span>
+
+                    </a>
+                </li>
+                <li>
+                    <a class="active d-flex align-items-center fs-14 text-black rad-6 p-10" href="projects.html">
+                        <i class="fa-solid fa-share-nodes fa-fw"></i>
+                        <span>Projects</span>
+
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-items-center fs-14 text-black rad-6 p-10" href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>Courses</span>
+
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-items-center fs-14 text-black rad-6 p-10" href="friends.html">
+                        <i class="fa-solid fa-circle-user fa-fw"></i>
+                        <span>Friends</span>
+
+                    </a>
+                </li>
+
+                <li>
+                    <a class="d-flex align-items-center fs-14 text-black rad-6 p-10" href="files.html">
+                        <i class="fa-solid fa-file fa-fw"></i>
+                        <span>Files</span>
+
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-items-center fs-14 text-black rad-6 p-10" href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span>Plans</span>
+
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="content overflow-hidden w-100">
+            <!-- start head -->
+            <div class="head bg-white p-15 between-flex">
+                <div class="search position-relative">
+                    <input class="p-10 rad-10" type="search" placeholder="Type A Keyword">
+                </div>
+                <div class="icons d-flex align-items-center ">
+                    <div class="dropdown">
+                        <span class="notification position-relative" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-regular fa-bell fa-lg"></i>
+                        </span>
+
+                        <div class="dropdown-menu mt-1 w-300px fs-13 pt-1">
+                            <h6 class="dropdown-header c-grey fs-10">NOTIFICATIONS</h6>
+                            <div class="dropdown-divider mt-1"></div>
+
+                            <a href="#" class="d-flex align-center py-10 dropdown-item text-wrap">
+                                <div class="fs-20">
+                                    <i class="fa-solid fa-bag-shopping text-theme"></i>
+                                </div>
+                                <div class="info flex-wrap flex-grow-1 ps-3">
+                                    <div class="fs-14">NEW ORDER RECEIVED ($1,299)</div>
+                                    <div class="text fs-10">JUST NOW</div>
+
+                                </div>
+                                <div class="ps-2 fs-15">
+                                    <i class="fa-solid fa-caret-right"></i>
+                                </div>
+                            </a>
+                            <a href="#" class="d-flex align-center py-10 dropdown-item text-wrap">
+                                <div class="fs-20">
+                                    <i class="fa-regular fa-user text-theme"></i>
+                                </div>
+                                <div class="info flex-wrap flex-grow-1 ps-3">
+                                    <div class="fs-14">3 NEW ACCOUNT CREATED</div>
+                                    <div class="text fs-10">2 MINUTES AGO</div>
+
+                                </div>
+                                <div class="ps-2 fs-15">
+                                    <i class="fa-solid fa-caret-right"></i>
+                                </div>
+                            </a>
+
+                            <a href="#" class="d-flex align-center py-10 dropdown-item text-wrap">
+                                <div class="fs-20">
+                                    <i class="fa-solid fa-gear text-theme"></i>
+                                </div>
+                                <div class="info flex-wrap flex-grow-1 ps-3">
+                                    <div class="fs-14">SETUP COMPLETED</div>
+                                    <div class="text fs-10">3 MINUTES AGO</div>
+
+                                </div>
+                                <div class="ps-2 fs-15">
+                                    <i class="fa-solid fa-caret-right"></i>
+                                </div>
+                            </a>
+
+
+                            <a href="#" class="d-flex align-center py-10 dropdown-item text-wrap">
+                                <div class="fs-20">
+                                    <i class="fa-solid fa-layer-group text-theme"></i>
+                                </div>
+                                <div class="info flex-wrap flex-grow-1 ps-3">
+                                    <div class="fs-14">WIDGET INSTALLATION DONE</div>
+                                    <div class="text fs-10">5 MINUTES AGO</div>
+
+                                </div>
+                                <div class="ps-2 fs-15">
+                                    <i class="fa-solid fa-caret-right"></i>
+                                </div>
+                            </a>
+
+                            <a href="#" class="d-flex align-center py-10 dropdown-item text-wrap">
+                                <div class="fs-20">
+                                    <i class="fa-solid fa-credit-card text-theme"></i>
+                                </div>
+                                <div class="info flex-wrap flex-grow-1 ps-3">
+                                    <div class="fs-14">PAYMENT METHOD ENABLED</div>
+                                    <div class="text fs-10">10 MINUTES AGO</div>
+
+                                </div>
+                                <div class="ps-2 fs-15">
+                                    <i class="fa-solid fa-caret-right"></i>
+                                </div>
+                            </a>
+
+                            <hr class="bg-white mb-0 mt-2">
+                            <div class="py-10 text-center mb-n2">
+                                <a href="#" class="text-theme fw-bold ">See All</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    
+                    <img src="img/avatar1.jpg" class="img-sm ms-2" alt="">
+                    
+                </div>
+
+            </div>
+            <!-- end head -->
+            <h1 class="position-relative">Projects</h1>
+
+            <div class="projects-page m-20 d-grid gap-20">
+                <div class="project bg-white p-20 rad-6 p-relative">
+                    <span class="date fs-14 c-grey">15/10/2021</span>
+
+                    <h4 class="fs-17 mt-0 mb-10">Mohamed Dashboard</h4>
+                    <p class="fs-14 c-grey mb-20">Mohamed Dashboard Project Design And Programming And Hosting</p>
+
+                    <div class="team p-relative">
+                        <a href="#">
+                            <img src="img/team-01.png" alt="">
+                            
+                        </a>
+                        <a href="#">
+                            <img src="img/team-02.png" alt="">
+                            
+                        </a>
+                        <a href="#">
+                            <img src="img/team-03.png" alt="">
+                            
+                        </a>
+                        <a href="#">
+                            <img src="img/team-04.png" alt="">
+                            
+                        </a>
+                        <a href="#">
+                            <img src="img/team-05.png" alt="">
+                            
+                        </a>
+
+                    </div>
+
+                    <div class="do d-flex">
+                        <span class="fs-13 rad-6 bg-eee">Programming</span>
+                        <span class="fs-13 rad-6 bg-eee">Design</span>
+                        <span class="fs-13 rad-6 bg-eee">Hosting</span>
+                        <span class="fs-13 rad-6 bg-eee">Marketing</span>
+                    </div>
+
+
+                    <div class="info between-flex">
+                        <div class="prog bg-eee">
+                            <span class="bg-red" style="width: 50%;"></span>
+                        </div>
+                        <div class="">
+                            <i class="fa-solid fa-dollar-sign c-grey"></i>
+                            <span class="c-grey">2500</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="project bg-white p-20 rad-6 p-relative">
+                    <span class="date fs-14 c-grey">15/6/2022
+                    </span>
+
+                    <h4 class="fs-17 mt-0 mb-10">Academy Portal
+                    </h4>
+                    <p class="fs-14 c-grey mb-20">Academy Portal Project Design And Programming
+
+                    </p>
+
+                    <div class="team p-relative">
+                        <a href="#">
+                            <img src="img/team-01.png" alt="">
+                            
+                        </a>
+                        <a href="#">
+                            <img src="img/team-02.png" alt="">
+                            
+                        </a>
+                        <a href="#">
+                            <img src="img/team-03.png" alt="">
+                            
+                        </a>
+                        
+
+                    </div>
+
+                    <div class="do d-flex">
+                        <span class="fs-13 rad-6 bg-eee">Programming</span>
+                        <span class="fs-13 rad-6 bg-eee">Design</span>
+                        
+                    </div>
+
+
+                    <div class="info between-flex">
+                        <div class="prog bg-eee">
+                            <span class="bg-green" style="width: 80%;"></span>
+                        </div>
+                        <div class="">
+                            <i class="fa-solid fa-dollar-sign c-grey"></i>
+                            <span class="c-grey">1800</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="project bg-white p-20 rad-6 p-relative">
+                    <span class="date fs-14 c-grey">15/6/2022
+                    </span>
+
+                    <h4 class="fs-17 mt-0 mb-10">Chatting Application
+
+                    </h4>
+                    <p class="fs-14 c-grey mb-20">Chatting Application Project Design
+                    </p>
+
+                    <div class="team p-relative">
+                        <a href="#">
+                            <img src="img/team-01.png" alt="">
+                            
+                        </a>
+                        <a href="#">
+                            <img src="img/team-02.png" alt="">
+                            
+                        </a>
+                        <a href="#">
+                            <img src="img/team-03.png" alt="">
+                            
+                        </a>
+                        
+
+                    </div>
+
+                    <div class="do d-flex">
+                        
+                        <span class="fs-13 rad-6 bg-eee">Design</span>
+                        
+                    </div>
+
+
+                    <div class="info between-flex">
+                        <div class="prog bg-eee">
+                            <span class="bg-blue" style="width: 100%;"></span>
+                        </div>
+                        <div class="">
+                            <i class="fa-solid fa-dollar-sign c-grey"></i>
+                            <span class="c-grey">950</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="project bg-white p-20 rad-6 p-relative">
+                    <span class="date fs-14 c-grey">15/6/2022
+                    </span>
+
+                    <h4 class="fs-17 mt-0 mb-10">Ahmed Dashboard
+                    </h4>
+                    <p class="fs-14 c-grey mb-20">Ahmed Dashboard Project Design And Programming And Hosting</p>
+
+                    <div class="team p-relative">
+                        <a href="#">
+                            <img src="img/team-01.png" alt="">
+                            
+                        </a>
+                        <a href="#">
+                            <img src="img/team-02.png" alt="">
+                            
+                        </a>
+                        <a href="#">
+                            <img src="img/team-03.png" alt="">
+                            
+                        </a>
+                        
+                        <a href="#">
+                            <img src="img/team-04.png" alt="">
+                            
+                        </a>
+                        
+
+                    </div>
+
+                    <div class="do d-flex">
+                        
+                        <span class="fs-13 rad-6 bg-eee">Programming</span>
+                        <span class="fs-13 rad-6 bg-eee">Design</span>
+                        <span class="fs-13 rad-6 bg-eee">Hosting</span>
+                        <span class="fs-13 rad-6 bg-eee">Marketing</span>
+                        
+                    </div>
+
+
+                    <div class="info between-flex">
+                        <div class="prog bg-eee">
+                            <span class="bg-green" style="width: 50%;"></span>
+                        </div>
+                        <div class="">
+                            <i class="fa-solid fa-dollar-sign c-grey"></i>
+                            <span class="c-grey">950</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="project bg-white p-20 rad-6 p-relative">
+                    <span class="date fs-14 c-grey">15/6/2022
+                    </span>
+
+                    <h4 class="fs-17 mt-0 mb-10">Ahmed Portal
+                    </h4>
+                    <p class="fs-14 c-grey mb-20">Ahmed Portal Project Design And Programming</p>
+
+                    <div class="team p-relative">
+                        <a href="#">
+                            <img src="img/team-01.png" alt="">
+                            
+                        </a>
+                        <a href="#">
+                            <img src="img/team-02.png" alt="">
+                            
+                        </a>
+                        
+                        
+                        <a href="#">
+                            <img src="img/team-04.png" alt="">
+                            
+                        </a>
+                        
+
+                    </div>
+
+                    <div class="do d-flex">
+                        
+                        <span class="fs-13 rad-6 bg-eee">Programming</span>
+                        <span class="fs-13 rad-6 bg-eee">Design</span>
+                        
+                        
+                    </div>
+
+
+                    <div class="info between-flex">
+                        <div class="prog bg-eee">
+                            <span class="bg-green" style="width: 70%;"></span>
+                        </div>
+                        <div class="">
+                            <i class="fa-solid fa-dollar-sign c-grey"></i>
+                            <span class="c-grey">850</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="project bg-white p-20 rad-6 p-relative">
+                    <span class="date fs-14 c-grey">15/6/2022
+                    </span>
+
+                    <h4 class="fs-17 mt-0 mb-10">Mohamed Application
+
+                    </h4>
+                    <p class="fs-14 c-grey mb-20">Mohamed Application Project Design
+                    </p>
+
+                    <div class="team p-relative">
+                        <a href="#">
+                            <img src="img/team-01.png" alt="">
+                            
+                        </a>
+                        <a href="#">
+                            <img src="img/team-02.png" alt="">
+                            
+                        </a>
+                        
+                        
+                        <a href="#">
+                            <img src="img/team-04.png" alt="">
+                            
+                        </a>
+                        
+
+                    </div>
+
+                    <div class="do d-flex">
+                        
+                        <span class="fs-13 rad-6 bg-eee">Design</span>
+                        
+                        
+                    </div>
+
+
+                    <div class="info between-flex">
+                        <div class="prog bg-eee">
+                            <span class="bg-red" style="width: 30%;"></span>
+                        </div>
+                        <div class="">
+                            <i class="fa-solid fa-dollar-sign c-grey"></i>
+                            <span class="c-grey">950</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="project bg-white p-20 rad-6 p-relative">
+                    <span class="date fs-14 c-grey">15/10/2021</span>
+
+                    <h4 class="fs-17 mt-0 mb-10">Mohamed Dashboard</h4>
+                    <p class="fs-14 c-grey mb-20">Mohamed Dashboard Project Design And Programming And Hosting</p>
+
+                    <div class="team p-relative">
+                        <a href="#">
+                            <img src="img/team-01.png" alt="">
+                            
+                        </a>
+                        <a href="#">
+                            <img src="img/team-02.png" alt="">
+                            
+                        </a>
+                        <a href="#">
+                            <img src="img/team-03.png" alt="">
+                            
+                        </a>
+                        <a href="#">
+                            <img src="img/team-04.png" alt="">
+                            
+                        </a>
+                        <a href="#">
+                            <img src="img/team-05.png" alt="">
+                            
+                        </a>
+
+                    </div>
+
+                    <div class="do d-flex">
+                        <span class="fs-13 rad-6 bg-eee">Programming</span>
+                        <span class="fs-13 rad-6 bg-eee">Design</span>
+                        <span class="fs-13 rad-6 bg-eee">Hosting</span>
+                        <span class="fs-13 rad-6 bg-eee">Marketing</span>
+                    </div>
+
+
+                    <div class="info between-flex">
+                        <div class="prog bg-eee">
+                            <span class="bg-green" style="width: 60%;"></span>
+                        </div>
+                        <div class="">
+                            <i class="fa-solid fa-dollar-sign c-grey"></i>
+                            <span class="c-grey">1950</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="project bg-white p-20 rad-6 p-relative">
+                    <span class="date fs-14 c-grey">15/10/2021</span>
+
+                    <h4 class="fs-17 mt-0 mb-10">Mohamed Portal
+                    </h4>
+                    <p class="fs-14 c-grey mb-20">Mohamed Portal Project Design And Programming
+                    </p>
+
+                    <div class="team p-relative">
+                        
+                        <a href="#">
+                            <img src="img/team-03.png" alt="">
+                            
+                        </a>
+                        <a href="#">
+                            <img src="img/team-04.png" alt="">
+                            
+                        </a>
+                        <a href="#">
+                            <img src="img/team-05.png" alt="">
+                            
+                        </a>
+
+                    </div>
+
+                    <div class="do d-flex">
+                        <span class="fs-13 rad-6 bg-eee">Programming</span>
+                        <span class="fs-13 rad-6 bg-eee">Design</span>
+                        
+                    </div>
+
+
+                    <div class="info between-flex">
+                        <div class="prog bg-eee">
+                            <span class="bg-green" style="width: 65%;"></span>
+                        </div>
+                        <div class="">
+                            <i class="fa-solid fa-dollar-sign c-grey"></i>
+                            <span class="c-grey">1650</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+
+
+</body>
+
+</html>
